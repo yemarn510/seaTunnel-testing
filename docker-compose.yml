@@ -1,0 +1,9 @@
+
+
+version: '3.7'
+
+services:
+  seatunnel:
+    build: .
+    volumes:
+      - ./apache-seatunnel-2.3.3/config/v2.streaming.conf.template:/data/seatunnel.streaming.conf
